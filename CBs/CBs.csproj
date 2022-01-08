@@ -25,7 +25,6 @@
     <Folder Include="NPCs\Bosses\" />
     <Folder Include="Sounds\" />
     <Folder Include="Sounds\Music\" />
-    <Folder Include="Projectiles\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework">
