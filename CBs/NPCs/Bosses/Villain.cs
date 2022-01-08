@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using CBs.Items;
 
 namespace CBs.NPCs.Bosses
 {
@@ -116,6 +115,16 @@ namespace CBs.NPCs.Bosses
                 npc.velocity = npc.DirectionTo(tPos) * vMag;
             }
 
+        }
+
+        public override void NPCLoot()
+        {
+            if (Main.rand.Next(7) == 0) {
+            Item.NewItem(npc.getRect(), mod.itemType(FiveFrettedStaff));
+            }
+            if (Main.rand.Next(21) == 0) {
+            Item.NewItem(npc.getRect(), mod.itemType(RedOctane));
+            }
         }
 
         public Villain()
