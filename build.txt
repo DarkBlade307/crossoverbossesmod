@@ -1,3 +1,0 @@
-displayName = Crossover Bosses
-author = ShadowSabre703
-version = 0.1
