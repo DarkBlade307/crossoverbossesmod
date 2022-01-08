@@ -52,7 +52,7 @@ namespace CBs.NPCs.Bosses
             npc.lavaImmune = true;
             npc.noGravity = true;
             npc.noTileCollide = true;
-            music = mod.GetSoundSlot(SoundType.Music, "Sounds/Music/Villain");
+            music = MusicID.Boss1;
         }
 
         public override void ScaleExpertStats(int numPlayers, float bossLifeScale)
