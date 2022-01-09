@@ -19,15 +19,7 @@ namespace CBs.Items
             item.maxStack = 9999;
             item.value = 10;
             item.rare = 1;
-            item.damage = 100;
-            item.knockBack = 20;
-            item.shoot = 10;
-            item.shootSpeed = 100.0f;
-            item.ranged = true;
-            item.crit = 10;
-            
-            item.notAmmo = true;
-
+            item.notAmmo = false;
             //item.UseSound = SoundID
 
             // Set other item.X values here
@@ -36,10 +28,6 @@ namespace CBs.Items
         public override void AddRecipes()
         {
             // Recipes here. See Basic Recipe Guide
-        }
-
-        class CobaltSabot
-        {
         }
     }
 }
