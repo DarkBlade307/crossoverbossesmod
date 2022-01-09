@@ -13,7 +13,6 @@ namespace CBs.Projectiles
             DisplayName.SetDefault("CobaltSabot");
         }
 
-
         public override void SetDefaults()
         { 
             projectile.width = 30;
@@ -21,7 +20,7 @@ namespace CBs.Projectiles
             projectile.friendly = true;
             projectile.penetrate = 200;
             projectile.ranged = true;
-            Projectiles.aiStyle = 21;
+            projectile.aiStyle = 21;
 
         }
     }
