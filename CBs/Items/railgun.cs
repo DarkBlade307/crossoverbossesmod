@@ -3,6 +3,7 @@ using Terraria.ModLoader;
 using Terraria.Audio;
 using CBs.NPCs.Bosses;
 using CBs.Items;
+using CBs.Projectiles;
 //using Terraria.GameContent.Creative;
 using Terraria;
 namespace CBs.Items

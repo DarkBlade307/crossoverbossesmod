@@ -20,7 +20,6 @@ namespace CBs.Items
             item.value = 10;
             item.rare = 1;
             item.notAmmo = false;
-            Items.ammo = ModContent.ProjectileType<CobaltSabotShot>();
             //item.UseSound = SoundID
 
             // Set other item.X values here
@@ -29,10 +28,6 @@ namespace CBs.Items
         public override void AddRecipes()
         {
             // Recipes here. See Basic Recipe Guide
-        }
-
-        class CobaltSabot
-        {
         }
     }
 }

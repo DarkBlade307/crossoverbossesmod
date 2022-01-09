@@ -22,7 +22,7 @@ namespace CBs.Projectiles
             projectile.penetrate = 200;
             projectile.ranged = true;
             Projectiles.aiStyle = 21;
-            
+
         }
     }
 }
