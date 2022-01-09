@@ -3,6 +3,7 @@ using Terraria.ModLoader;
 using Terraria.Audio;
 using CBs.NPCs.Bosses;
 using CBs.Items;
+using CBs.Projectiles;
 //using Terraria.GameContent.Creative;
 using Terraria;
 namespace CBs.Items
@@ -29,12 +30,12 @@ namespace CBs.Items
             item.useTime = 250;
             item.damage = 100;
             item.knockBack = 20;
-            item.shoot = 10;
+            item.shoot = ModContent.ProjectileType<CobaltSabotShot>();
             item.shootSpeed = 100.0f;
             item.ranged = true;
             item.crit = 10;
 
-            item.useAmmo = mod.ItemType(CobaltSabot);
+            item.ammo = ModContent.ItemType<CobaltSabot>();
             item.notAmmo = true;
 
             //item.UseSound = SoundID

@@ -1,3 +1,4 @@
 displayName = Crossover Bosses
 author = ShadowSabre703 and Parwinner
 version = 0.1
+buildIgnore = Items/Sprites/*
